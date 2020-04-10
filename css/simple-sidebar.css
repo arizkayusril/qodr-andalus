@@ -5,6 +5,7 @@
  */
 body {
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 #sidebar-wrapper {
@@ -26,7 +27,16 @@ body {
 }
 
 #page-content-wrapper {
-  min-width: 100vw;
+  width: 1340px;
+  min-height: 663px;
+  /* left: 100px; */
+  top: 0px;
+
+  background: #4C4C4C;
+  
+}
+.conatiner{
+  height: 640px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -34,64 +44,78 @@ body {
 }
 
 @media (min-width: 768px) {
+  
+  .container .rectangle-4{
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   #sidebar-wrapper {
     margin-left: 0;
     min-height: 80vh;
 
   }
 
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+
+}
+@media (min-width: 425px) {
+  
+  .container .rectangle-4{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #sidebar-wrapper {
+    margin-left: 0;
+    min-height: 80vh;
+
+  }
+  
   #page-content-wrapper {
     min-width: 0;
     width: 100%;
-    height: 100%;
+    /* height: auto; */
   }
 
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
 
-  .item{
-    position: relative;
-    width: 310px;
-    height: 211px;
-    /* left: 313px;
-    top: 255px; */
-    color: #ffffff;
-    background: #363636;
-    border-radius: 16px;
-  }
 }
 
 
-/* Item */
-.item{
-  position: relative;
-  width: 341px;
-  height: 211px;
-  color: #ffffff;
-  background: #363636;
-  border-radius: 16px;
-}
 
 /* card */
+
 .container .rectangle-4 {
-  padding:15px 20px;
-  height: 225px;
-  width: 341px;
-  /* padding: 25px; */
-  background-color: rgba(255, 255, 255, 0.26);
+  width: 390px;
+  height: 211px;
+  margin-top: 35px;
+  padding: 5px 20px;
+  background-color: #363636;
   border-radius: 15px;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.0);
   transition: all 0.5s;
- }
- .rectangle-4:hover{
-  height: 225px;
-  width: 335px;
-  background-color: #FFFFFF;
-  border-radius: 15px;
-  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.34);
+  color: #E5E5E5;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #FFFFFF;
   
  }
+ .rectangle-4:hover{
+  height: 211px;
+  width: 390px;
+  background-color: rgb(88, 84, 84);
+  border-radius: 15px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.34);
+  }
  
 .container .rectangle-4 .img{
  display: inline-block;
@@ -99,31 +123,40 @@ body {
  width: 60px;
  text-align: center;
 }
-.container .rectangle-4 i{
+.container .rectangle-4 img{
  height: 45px;
  margin-left: auto;
  margin-right: auto;
  font-size: 50px;
+ color: #F0A1B4;;
 }
+
 .container .rectangle-4 h5{
- color: #1C1F28;
- font-family: 'Work Sans';
- font-size: 24;
- text-align: left;
- 
+ font-family: 'Poppins', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 36px;
 }
+
 /* What we do? */
 
 #what-we-do{
 
 /* width: 316px; */
   height: 72px; 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; 
   font-size: 48px;
   line-height: 72px;
   text-align: center;
-
   color: rgb(12, 11, 11);
+  text-align: center;
+  color: #E5E5E5;
+  font-style: normal;
+  
+}
+
+.carousel-item{
+  transition: transform 4s ease, opacity 0.5s ease-out;
 }
