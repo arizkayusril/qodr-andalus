@@ -1,6 +1,6 @@
 // Universal Style for Andalus Core template 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
 *{
     font-family: $poppins;
     scroll-behavior: smooth;
@@ -10,6 +10,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     background: whitesmoke;
+    // overflow: hidden;
 }
 // Typhography
 h1{

@@ -1,8 +1,13 @@
 $poppins: 'Poppins', sans-serif;
+$lalezar: 'Lalezar', cursive;
 $darkgrey: #3F3F3F;
 $pink: #F0A1B4;
+$delima: rgb(236, 84, 119);
 $white: #FFFFFF;
 $grey: #4C4C4C;
+$lightgrey: #6C6C6C;
+$whitesmoke: #E5E5E5;
+$black-transparent: rgba(0, 0, 0, 0.5);
 
 @mixin box-shadow($border) {
     -ms-box-shadow: $border;
