@@ -14,19 +14,26 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/plugin/lightGallery-master/dist/css/lightgallery.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="dist/jquery/jquery-3.4.1.slim.min.js"></script>
     <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dist/plugin/lightGallery-master/dist/js/lightgallery-all.min.js"></script>
 </head>
 <body>
 <main id="page-wrap">
+
     <!-- Navbar / Sidebar -->
     <nav class="nav-side">
         <section id="aside">
+
             <!-- Logo -->
             <div id="logo">
-                <h1><a href="index.html">LO GO</a></h1>
+                <h2><a href="index.html">LO GO</a></h2>
             </div>
+
             <!-- Nav Tabs -->
             <section class="navbar-menu">
                 <nav class="menu" id="menu-list">
@@ -89,25 +96,428 @@
 
     <!-- Main Content -->
     <article class="tab-content container-box">
+
+        <!-- Home -->
         <content role="tabpanel" class="tab-pane in active content-box" id="home">
-            <p>Robby Gbrant</p>
+            <article class="home-article">
+                <section class="title">
+                    <h2>Hi Folks, We Are</h2>
+                    <h1>QODR ANDALUS</h1>
+                </section>
+                <section class="paraghraph">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed a tempora, voluptatem nihil eius magnam temporibus illum deleniti animi, non quos delectus ullam impedit, mollitia dolore fuga quam hic voluptatibus?</p>
+                </section>
+                <section class="our-clients">
+                    <h3>Our Clients</h3>
+                    <div class="logo-client">
+                        <div class="logo-box">
+                            <img src="assets/logo/2339708.gif" alt="logo1">
+                        </div>
+                        <div class="logo-box">
+                            <img src="assets/logo/3410492.gif" alt="logo2">
+                        </div>
+                        <div class="logo-box">
+                            <img src="assets/logo/3667880.gif" alt="logo3">
+                        </div>
+                        <div class="logo-box">
+                            <img src="assets/logo/37587-O1APWM.gif" alt="logo4">
+                        </div>
+                    </div>
+                </section>
+            </article>
         </content>
+
+        <!-- Our Services -->
         <content role="tabpanel" class="tab-pane fade content-box" id="our-services">
-            <p>Asep Muhammad Saefullah</p>
+            <h2>What we do?</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <section class="content-slider">
+                            <content class="services row justify-content-md-center">
+                                <div class="list-services">
+                                    <div class="icon-services">
+                                        <img src="assets/icon/code-Vector.png" alt="code">
+                                    </div>
+                                    <div class="info-services">
+                                        <h3>Web Application</h3>
+                                        <p>Kami membantu anda untuk membangun aplikasi berbasis web, seperti website sekolah, website pribadi, PPDB Online, Company profile, dan lain-lain</p>
+                                    </div>
+                                </div>
+                                <div class="list-services">
+                                    <div class="icon-services">
+                                        <img src="assets/icon/Vector1.png" alt="responsive">
+                                    </div>
+                                    <div class="info-services">
+                                        <h3>Resposive Website</h3>
+                                        <p>Kami dapat membantu anda untuk menjadikan tampilan website anda jadi lebh menarik & modern sesuai perangkat yang anda gunakan</p>
+                                    </div>
+                                </div>
+                                <div class="list-services">
+                                    <div class="icon-services">
+                                        <img src="assets/icon/Vector.png" alt="responsive">
+                                    </div>
+                                    <div class="info-services">
+                                        <h3>UI/UX Design</h3>
+                                        <p>Kami dapat membantu anda untuk mendapat design yang menarik & modern untuk aplikasi web/mobile milik anda</p>
+                                    </div>
+                                </div>
+                                <div class="list-services">
+                                    <div class="icon-services">
+                                        <img src="assets/icon/Vector2.png" alt="responsive">
+                                    </div>
+                                    <div class="info-services">
+                                        <h3>Illustration</h3>
+                                        <p>Kami dapat membantu anda untuk mendapatkan berbagai macam ilustrasi yang anda butuhkan</p>
+                                    </div>
+                                </div>
+                            </content>
+                        </section>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <section class="content-slider">
+                            <content class="services row justify-content-md-center">
+                                <div class="list-services">
+                                    <div class="icon-services">
+                                        <img src="assets/icon/lamp.png" alt="lamp">
+                                    </div>
+                                    <div class="info-services">
+                                        <h3>Brand Design</h3>
+                                        <p>Kami dapat membantu anda untuk membuat identitas dari produk anda</p>
+                                    </div>
+                                </div>
+                                <div class="list-services">
+                                    <div class="icon-services">
+                                        <img src="assets/icon/code-Vector.png" alt="code">
+                                    </div>
+                                    <div class="info-services">
+                                        <h3>Android Development</h3>
+                                        <p>Coming soon</p>
+                                    </div>
+                                </div>
+                            </content>
+                        </section>
+                    </div>
+                  </div>
+                </div>   
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
         </content>
+
+        <!-- Our Works -->
         <content role="tabpanel" class="tab-pane fade content-box" id="our-works">
-            <p>Wildan Al Fath</p>
+            <h2>Our Gallery Project</h2>
+            <article class="gallery row justify-content-md-center">
+                <div class="gallery-pictures" data-responsive="assets/img/2732314.jpg" data-src="assets/img/2732314.jpg" data-sub-html="1">
+                    <section class="art-hover">
+                        <i data-feather="camera"></i>
+                        <h4>Portfolio</h4>
+                        <p>UI/UX Design</p>
+                    </section>
+                    <a href=""><img src="assets/img/2732314.jpg" alt="1"></a>
+                </div>
+                <div class="gallery-pictures" data-responsive="assets/img/3695026.jpg" data-src="assets/img/3695026.jpg" data-sub-html="2">
+                    <section class="art-hover">
+                        <i data-feather="camera"></i>
+                        <h4>Portfolio</h4>
+                        <p>UI/UX Design</p>
+                    </section>
+                    <a href=""><img src="assets/img/3695026.jpg" alt="2"></a>
+                </div>
+                <div class="gallery-pictures" data-responsive="assets/img/3724248.jpg" data-src="assets/img/3724248.jpg" data-sub-html="3">
+                    <section class="art-hover">
+                        <i data-feather="camera"></i>
+                        <h4>Portfolio</h4>
+                        <p>UI/UX Design</p>
+                    </section>
+                    <a href=""><img src="assets/img/3724248.jpg" alt="3"></a>
+                </div>
+                <div class="gallery-pictures" data-responsive="assets/img/3726760.jpg" data-src="assets/img/3726760.jpg" data-sub-html="4">
+                    <section class="art-hover">
+                        <i data-feather="camera"></i>
+                        <h4>Portfolio</h4>
+                        <p>UI/UX Design</p>
+                    </section>
+                    <a href=""><img src="assets/img/3726760.jpg" alt="4"></a>
+                </div>
+                <div class="gallery-pictures" data-responsive="assets/img/3747496.jpg" data-src="assets/img/3747496.jpg" data-sub-html="5">
+                    <section class="art-hover">
+                        <i data-feather="camera"></i>
+                        <h4>Portfolio</h4>
+                        <p>UI/UX Design</p>
+                    </section>
+                    <a href=""><img src="assets/img/3747496.jpg" alt="5"></a>
+                </div>
+                <div class="gallery-pictures" data-responsive="assets/img/2732314.jpg" data-src="assets/img/2732314.jpg" data-sub-html="6">
+                    <section class="art-hover">
+                        <i data-feather="camera"></i>
+                        <h4>Portfolio</h4>
+                        <p>UI/UX Design</p>
+                    </section>
+                    <a href=""><img src="assets/img/2732314.jpg" alt="6"></a>
+                </div>
+            </article>
         </content>
+
+        <!-- Our Team -->
         <content role="tabpanel" class="tab-pane fade content-box" id="our-team">
-            <p>Nursyaf Nugraha</p>
+            <h2>Lets us introduce ourselves</h2>
+            <article class="people row justify-content-md-center">
+                <div class="people-pictures">
+                    <section class="art-hover">
+                        <h4>John Doe</h4>
+                        <p>UI/UX Design</p>
+                        <ul class="social-icons">
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-behance"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <img src="assets/img/Man-1.jpg" alt="1">
+                </div>
+                <div class="people-pictures">
+                    <section class="art-hover">
+                        <h4>Patrick Doe</h4>
+                        <p>Web Application</p>
+                        <ul class="social-icons">
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-behance"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <img src="assets/img/Man-2.jpg" alt="2">
+                </div>
+                <div class="people-pictures">
+                    <section class="art-hover">
+                        <h4>Deane Doe</h4>
+                        <p>Android Developer</p>
+                        <ul class="social-icons">
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-behance"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <img src="assets/img/Man-3.jpg" alt="3">
+                </div>
+                <div class="people-pictures">
+                    <section class="art-hover">
+                        <h4>Rayne Bryant</h4>
+                        <p>Responsive Website</p>
+                        <ul class="social-icons">
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-behance"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <img src="assets/img/Man-4.jpg" alt="4">
+                </div>
+                <div class="people-pictures">
+                    <section class="art-hover">
+                        <h4>Frank Hauline</h4>
+                        <p>Illustration</p>
+                        <ul class="social-icons">
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-behance"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <img src="assets/img/Man-5.jpg" alt="5">
+                </div>
+                <div class="people-pictures">
+                    <section class="art-hover">
+                        <h4>Abraham Smith</h4>
+                        <p>Brand Design</p>
+                        <ul class="social-icons">
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-behance"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-social-icons">
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <img src="assets/img/Man-6.jpg" alt="6">
+                </div>
+            </article>
         </content>
+
+        <!-- Contact -->
         <content role="tabpanel" class="tab-pane fade content-box" id="contact">
-            <p>Lulu Muhammad Darissalam</p>
+            <h2>Wanna hire us?</h2>
+            <section class="contact-address row justify-content-center">
+                <section class="contact-list col">
+                    <form action="#">
+                        <section class="row justify-content-center" id="name-email">
+                            <section class="col">
+                                <input type="text" class="form-control input-form" id="Name" placeholder="Name">
+                            </section>
+                            <section class="col">
+                                <input type="email" class="form-control input-form" id="email" placeholder="E-mail">
+                            </section>
+                        </section>
+                        <section class="form-group" id="subject">
+                            <input type="text" class="form-control input-form" id="subject" placeholder="Subject">
+                        </section>
+                        <section class="form-group" id="textarea">
+                            <textarea class="form-control textarea input-form" name="message" id="message" placeholder="Message"></textarea>
+                        </section>
+                        <section id="submit-btn">
+                            <button class="btn btn-lg-12 btn-lg btn-block btn-pink">Submit</button>
+                        </section>
+                    </form>
+                </section>
+
+                <div class="vertical-line"></div>
+                
+                <section class="address col justify-content-center">
+                    <div class="address-list">
+                        <div class="icon-services">
+                            <img src="assets/icon/tool.png" alt="address">
+                        </div>
+                        <div class="info-services">
+                            <h3>Where to find us</h3>
+                            <p>Jl. Raya Menteng KM. 13, Kp. Cijurey RT. 03/04, Desa, Sukadamai, Sukamakmur, Bogor, Jawa Barat 16830</p>
+                        </div>
+                    </div>
+                    <div class="address-list">
+                        <div class="icon-services">
+                            <img src="assets/icon/mail.png" alt="mail">
+                        </div>
+                        <div class="info-services">
+                            <h3>Email us at</h3>
+                            <p>qodr.andalus@gmail.com</p>
+                            <p>business.qodrandalus@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="address-list">
+                        <div class="icon-services">
+                            <img src="assets/icon/smartphone.png" alt="phone">
+                        </div>
+                        <div class="info-services">
+                            <h3>Call us</h3>
+                            <p>Phone: 0812-2353-5738</p>
+                            <p>Phone: 0853-5284-4423</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </content>
     </article>
 </main>
 
 <!-- javascript -->
+<script>
+    $('.gallery').lightGallery()
+</script>
 <script>
     feather.replace({class: 'icon-sets'})
 </script>
