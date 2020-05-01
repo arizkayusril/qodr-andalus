@@ -882,7 +882,8 @@ blockquote {
           padding: 0 0 0 0; }
           #page-wrap .container-box .content-box .our-team-article h2 {
             font-size: 32px;
-            margin-bottom: 10px; }
+            margin-bottom: 10px;
+            text-align: center; }
           #page-wrap .container-box .content-box .our-team-article .people {
             width: 100%;
             height: 100%;
@@ -920,8 +921,9 @@ blockquote {
         font-size: 20px; }
       #page-wrap .container-box .content-box .our-works-article .gallery .gallery-pictures .art-hover p {
         font-size: 12px; }
-
   #page-wrap .container-box .content-box .our-team-article h2 {
-    font-size: 30px; } }
+    font-size: 27px;
+    margin-bottom: 10px;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
