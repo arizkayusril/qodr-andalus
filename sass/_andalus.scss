@@ -92,7 +92,7 @@
                     top: -10px;
                     left: 0;
                     background: $pink;
-                    @include transition(0.5s all ease-in-out);
+                    @include transition(.5s all ease-in-out);
                 }
                 &:after {
                     content: "";
@@ -102,7 +102,7 @@
                     top: -20px;
                     left: 0;
                     background: $pink;
-                    @include transition(0.5s all ease-in-out);
+                    @include transition(.5s all ease-in-out);
                     }
                 }
                 .menu-open:checked + .patty {
@@ -237,53 +237,55 @@
                 position: relative;
                 flex-direction: column;
                 z-index: 0;
-                .title{
-                    h2{
-                        text-align: center;
-                        font-weight: bold;
-                        font-size: 48px;
-                        margin-bottom: 25px;
+                .home-content{
+                    .title{
+                        h2{
+                            text-align: center;
+                            font-weight: bold;
+                            font-size: 48px;
+                            margin-bottom: 25px;
+                        }
+                        h1{
+                            text-align: center;
+                            font-family: $lalezar;
+                            font-weight: bold;
+                            font-size: 96px;
+                            color: $pink;
+                            margin: 10px 0 20px 0;
+                        }
                     }
-                    h1{
+                    .paraghraph{
                         text-align: center;
-                        font-family: $lalezar;
-                        font-weight: bold;
-                        font-size: 96px;
-                        color: $pink;
-                        margin: 10px 0 20px 0;
+                        margin: 0 0 40px 0;
+                        padding: 0 50px;
+                        width: 774px;
+                        height: auto;
+    
                     }
-                }
-                .paraghraph{
-                    text-align: center;
-                    margin: 0 0 40px 0;
-                    padding: 0 50px;
-                    width: 774px;
-                    height: auto;
-
-                }
-                .our-clients{
-                    h3{
-                        text-align: center;
-                        font-weight: bold;
-                        font-size: 36px;
-                    }
-                    .logo-client{
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        margin: 0;
-                        padding: 0;
-                        .logo-box{
-                            margin: 15px;
-                            padding: 10px;
-                            width: 80px;
-                            height: 80px;
-                            background: $white;
+                    .our-clients{
+                        h3{
+                            text-align: center;
+                            font-weight: bold;
+                            font-size: 36px;
+                        }
+                        .logo-client{
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            img{
-                                width: 60px;
+                            margin: 0;
+                            padding: 0;
+                            .logo-box{
+                                margin: 15px;
+                                padding: 10px;
+                                width: 80px;
+                                height: 80px;
+                                background: $white;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                img{
+                                    width: 60px;
+                                }
                             }
                         }
                     }
