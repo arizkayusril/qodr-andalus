@@ -1026,6 +1026,7 @@ blockquote {
     padding: 30px 0 0 0;
   }
   #page-wrap .container-box .content-box .our-services-article h2 {
+    text-align: center;
     font-size: 32px;
     margin-bottom: 10px;
   }
@@ -1052,6 +1053,7 @@ blockquote {
     padding: 0 0 0 0;
   }
   #page-wrap .container-box .content-box .our-works-article h2 {
+    text-align: center;
     font-size: 32px;
     margin-bottom: 10px;
   }
@@ -1064,6 +1066,7 @@ blockquote {
     padding: 0 0 0 0;
   }
   #page-wrap .container-box .content-box .our-team-article h2 {
+    text-align: center;
     font-size: 32px;
     margin-bottom: 10px;
   }
@@ -1078,6 +1081,7 @@ blockquote {
     padding: 0 0 0 0;
   }
   #page-wrap .container-box .content-box .contact-article h2 {
+    text-align: center;
     font-size: 32px;
     margin-bottom: 10px;
   }
