@@ -77,7 +77,7 @@
                     width: 100%;
                     height: 90px;
                     position: absolute;
-                    top: 0;
+                    top: -10px;
                     left: 0;
                     right: 0;
                     display: flex;
@@ -103,30 +103,39 @@
                 .home-article{
                     width: 100%;
                     height: 100%;
-                    padding: 40px 0 0 0;
-                    .title{
-                        h2{
-                            font-size: 32px;
-                            margin-bottom: 10px;
+                    margin: -40px 0 0 0;
+                    .home-content{
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        .title{
+                            h2{
+                                font-size: 32px;
+                                margin-bottom: 10px;
+                            }
+                            h1{
+                                font-size: 60px;
+                                margin: 5px 0 10px 0;
+                            }
                         }
-                        h1{
-                            font-size: 60px;
-                            margin: 5px 0 10px 0;
+                        .paraghraph{
+                            width: 100%;
+                            margin: 0 0 20px 0;
                         }
-                    }
-                    .paraghraph{
-                        width: 90%;
-                        margin: 0 0 20px 0;
-                    }
-                    .our-clients{
-                        h3{
-                            font-size: 28px;
-                        }
-                        .logo-client{
-                            width: 200px;
-                            flex-wrap: wrap;
-                            .logo-box{
-                                margin: 10px;
+                        .our-clients{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            h3{
+                                font-size: 28px;
+                            }
+                            .logo-client{
+                                width: 200px;
+                                flex-wrap: wrap;
+                                .logo-box{
+                                    margin: 10px;
+                                }
                             }
                         }
                     }
@@ -136,6 +145,7 @@
                     height: 100%;
                     padding: 30px 0 0 0;
                     h2{
+                        text-align: center;
                         font-size: 32px;
                         margin-bottom: 10px;
                     }
@@ -168,6 +178,7 @@
                     height: 100%;
                     padding: 0 0 0 0;
                     h2{
+                        text-align: center;
                         font-size: 32px;
                         margin-bottom: 10px;
                     }
@@ -181,10 +192,9 @@
                     height: 100%;
                     padding: 0 0 0 0;
                     h2{
+                        text-align: center;
                         font-size: 32px;
                         margin-bottom: 10px;
-                        text-align: center;
-
                     }
                     .people{
                         width: 100%;
@@ -197,6 +207,7 @@
                     height: 100%;
                     padding: 0 0 0 0;
                     h2{
+                        text-align: center;
                         font-size: 32px;
                         margin-bottom: 10px;
                     }
@@ -212,6 +223,18 @@
                             height: 0;
                             border: 1px solid $pink;
                         }
+                        .address{
+                            text-align: center;
+                            .address-list{
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                margin: 0;
+                                .icon-services{
+                                    margin: 0 0 10px 0;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -222,7 +245,6 @@
         z-index: 1001;
     }
 }
-
 // Responsive Stylesheet for 512px
 @media screen and (max-width: 512px){
     #page-wrap{
@@ -246,18 +268,7 @@
                         }
                     }
                 }
-                .our-team-article{
-                   
-                    h2{
-                        font-size: 27px;
-                        margin-bottom: 10px;
-                        text-align: center;
-                    }
-                    
-                }
             }
         }
     }
-
-      
 }
